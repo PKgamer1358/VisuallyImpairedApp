@@ -13,7 +13,6 @@ __pycache__/
 *.sqlite3
 
 # Model weights / large binaries
-*.pt
 *.h5
 *.onnx
 *.pkl
