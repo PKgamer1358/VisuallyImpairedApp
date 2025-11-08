@@ -1,28 +1,28 @@
-# --- Python environment ---
+# Python virtual environments
 venv/
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# --- Environment and secrets ---
+# Environment and secrets
 .env
 
-# --- Databases ---
+# Databases
 *.db
 *.sqlite3
 
-# --- Model weights / large binaries ---
-
+# Model weights / large binaries
+*.pt
 *.h5
 *.onnx
 *.pkl
 
-# --- IDE / editor files ---
+# IDE / editor files
 .vscode/
 .idea/
 
-# --- Logs and temp files ---
+# Logs and temp files
 *.log
 *.tmp
 *.bak
